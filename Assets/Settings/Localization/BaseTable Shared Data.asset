@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: BaseTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: BaseTable
+  m_TableCollectionNameGuidString: bd0b8450811476e4ebec6eeb365b69c9
+  m_Entries:
+  - m_Id: 668300057534464
+    m_Key: aerodynamics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80979976192
+    m_Key: balance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 673041995030528
+    m_Key: bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641609511755776
+    m_Key: castets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666934283100160
+    m_Key: deadly_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672591270928384
+    m_Key: income
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672677572927488
+    m_Key: income_upgarde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 667692562931712
+    m_Key: irony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668665989586944
+    m_Key: katanas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668758062948352
+    m_Key: lightning_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672395396931584
+    m_Key: lvl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670077897170944
+    m_Key: metal_chain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642951412211712
+    m_Key: nunchakus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672894040956928
+    m_Key: price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 661558913425408
+    m_Key: sai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 662078507999232
+    m_Key: sharpening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 667223035764736
+    m_Key: shurikens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641992497848320
+    m_Key: spikes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669543601561600
+    m_Key: steel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641867495006208
+    m_Key: titanium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668090661101568
+    m_Key: triple_throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1468027997020160
+    m_Key: advant_test
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4660307694181416984
+  references:
+    version: 2
+    RefIds:
+    - rid: 4660307694181416984
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1678199227078

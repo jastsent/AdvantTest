@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86aed0859854e15b9e6e04580656a5b, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  shopConfigs:
+  - <Name>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 641609511755776
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <IncomeDelay>k__BackingField: 3
+    <BaseCost>k__BackingField: 3
+    <BaseIncome>k__BackingField: 3
+    <FirstUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 667692562931712
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <FirstUpgradePrice>k__BackingField: 50
+    <FirstUpgradeMultiplier>k__BackingField: 0.5
+    <SecondUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 641992497848320
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SecondUpgradePrice>k__BackingField: 400
+    <SecondUpgradeMultiplier>k__BackingField: 1
+  - <Name>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 642951412211712
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <IncomeDelay>k__BackingField: 6
+    <BaseCost>k__BackingField: 40
+    <BaseIncome>k__BackingField: 40
+    <FirstUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 641867495006208
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <FirstUpgradePrice>k__BackingField: 1200
+    <FirstUpgradeMultiplier>k__BackingField: 1
+    <SecondUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 670077897170944
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SecondUpgradePrice>k__BackingField: 4000
+    <SecondUpgradeMultiplier>k__BackingField: 2
+  - <Name>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 661558913425408
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <IncomeDelay>k__BackingField: 10
+    <BaseCost>k__BackingField: 200
+    <BaseIncome>k__BackingField: 200
+    <FirstUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 662078507999232
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <FirstUpgradePrice>k__BackingField: 6000
+    <FirstUpgradeMultiplier>k__BackingField: 1
+    <SecondUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 666934283100160
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SecondUpgradePrice>k__BackingField: 20000
+    <SecondUpgradeMultiplier>k__BackingField: 1.5
+  - <Name>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 667223035764736
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <IncomeDelay>k__BackingField: 17
+    <BaseCost>k__BackingField: 1000
+    <BaseIncome>k__BackingField: 1000
+    <FirstUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 668090661101568
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <FirstUpgradePrice>k__BackingField: 15000
+    <FirstUpgradeMultiplier>k__BackingField: 1
+    <SecondUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 668300057534464
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SecondUpgradePrice>k__BackingField: 50000
+    <SecondUpgradeMultiplier>k__BackingField: 2
+  - <Name>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 668665989586944
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <IncomeDelay>k__BackingField: 30
+    <BaseCost>k__BackingField: 5000
+    <BaseIncome>k__BackingField: 5000
+    <FirstUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 668758062948352
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <FirstUpgradePrice>k__BackingField: 100000
+    <FirstUpgradeMultiplier>k__BackingField: 2
+    <SecondUpgradeName>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 669543601561600
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SecondUpgradePrice>k__BackingField: 500000
+    <SecondUpgradeMultiplier>k__BackingField: 4
+  <LocalizationKeys>k__BackingField:
+    <BalanceKey>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 80979976192
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <LvlKey>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 672395396931584
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <IncomeKey>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 672591270928384
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <UpgradeIncomeKey>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 672677572927488
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <PriceKey>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 672894040956928
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <BoughtKey>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: GUID:bd0b8450811476e4ebec6eeb365b69c9
+      m_TableEntryReference:
+        m_KeyId: 673041995030528
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
