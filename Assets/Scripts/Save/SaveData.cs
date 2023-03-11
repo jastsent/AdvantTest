@@ -15,5 +15,6 @@ namespace AdvantTest.Save
         public int Level;
         public bool IsFirstUpgradeAvailable;
         public bool IsSecondUpgradeAvailable;
+        public float IncomeProgress;
     }
 }

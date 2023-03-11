@@ -63,7 +63,7 @@ namespace AdvantTest.Shop
                 ref var shopComponent = ref _shopPool.Get(entity);
                 ref var shopView = ref _shopViewPool.Get(entity).ShopView;
                 
-                shopView.SetIncomeProgress(Mathf.Clamp01(shopComponent.IncomeTimer / shopComponent.IncomeDelay));
+                shopView.SetIncomeProgress(Mathf.Clamp01(shopComponent.IncomeProgress / shopComponent.IncomeDelay));
 
                 if (shopComponent.IsUpgradedEvent)
                 {

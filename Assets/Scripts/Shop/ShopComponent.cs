@@ -49,10 +49,15 @@ namespace AdvantTest.Shop
                 _shopData.IsSecondUpgradeAvailable = value; 
                 RecalculateIncome();
             }
+        }        
+        
+        public float IncomeProgress
+        {
+            get => _shopData.IncomeProgress;
+            set => _shopData.IncomeProgress = value;
         }
         
         public int CurrentPrice => BaseCost * (Level + 1);
-        public float IncomeTimer;
         public int CurrentIncome { get; private set; }
         public bool IsUpgradedEvent;
 

@@ -30,11 +30,11 @@ namespace AdvantTest.Shop
                 ref var shopComponent = ref _shopPool.Get(entity);
                 if (shopComponent.Level > 0)
                 {
-                    shopComponent.IncomeTimer += UltraTime.deltaTime;
-                    while (shopComponent.IncomeTimer >= shopComponent.IncomeDelay)
+                    shopComponent.IncomeProgress += UltraTime.deltaTime;
+                    while (shopComponent.IncomeProgress >= shopComponent.IncomeDelay)
                     {
                         balanceComponent.Balance += shopComponent.CurrentIncome;
-                        shopComponent.IncomeTimer -= shopComponent.IncomeDelay;
+                        shopComponent.IncomeProgress -= shopComponent.IncomeDelay;
                     }
                 }
             }

@@ -39,7 +39,7 @@ namespace AdvantTest.Shop
                     {
                         balanceComponent.Balance -= shopComponent.CurrentPrice;
                         shopComponent.Level += 1;
-                        shopComponent.IncomeTimer = 0f;
+                        shopComponent.IncomeProgress = 0f;
                         shopComponent.IsUpgradedEvent = true;
                     }
                 }
